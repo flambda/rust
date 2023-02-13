@@ -254,6 +254,8 @@ x--expand-yaml-anchors--remove:
 
 name: CI
 on:
+  release:
+    types: [publisg]
   push:
     branches:
       - auto
